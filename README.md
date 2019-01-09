@@ -1,2 +1,16 @@
 # HelloPython
 
+
+
+
+> 参考文档
+
+[廖雪峰教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+[Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
+
+[python爬虫学习导航-肖鹏伟](https://blog.csdn.net/qq_40147863/article/details/85303579)
+
+[微信公众号爬虫](https://github.com/wonderfulsuccess/weixin_crawler)
+
+
