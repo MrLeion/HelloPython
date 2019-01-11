@@ -1,5 +1,7 @@
 # HelloPython
 
+> basicKnowledge 主要是廖雪峰 Python3.6 教程的学习笔记
+
 
 
 
@@ -12,5 +14,9 @@
 [python爬虫学习导航-肖鹏伟](https://blog.csdn.net/qq_40147863/article/details/85303579)
 
 [微信公众号爬虫](https://github.com/wonderfulsuccess/weixin_crawler)
+
+[笨方法学 Python](https://github.com/521xueweihan/python)
+
+[Python 3.7.1 文档](https://docs.python.org/3/library/)
 
 

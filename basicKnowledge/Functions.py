@@ -1,4 +1,4 @@
-# 调用函数
+# 调用函数 python 内置函数：https://docs.python.org/3/library/functions.html
 ##python3.x 中的函数可以取别名,这个别名对象指向函数对象
 ##python 中提供了很多内置函数包括 类型转换，时间等类似于java.utils 包的功能
 a = hex
@@ -42,8 +42,6 @@ elif quadratic(1, 3, -4) != (1.0, -4.0):
     print('测试失败')
 else:
     print('测试成功')
-
-
 
 
 
