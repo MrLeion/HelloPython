@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+'''
+函数
+'''
+__author__ = 'tzl'
+
+
 # 调用函数 python 内置函数：https://docs.python.org/3/library/functions.html
 ##python3.x 中的函数可以取别名,这个别名对象指向函数对象
 ##python 中提供了很多内置函数包括 类型转换，时间等类似于java.utils 包的功能

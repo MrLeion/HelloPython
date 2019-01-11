@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
+模块
+'''
+__author__ = 'tzl'
+
+'''
 文档注释
 '''
 _author_ = "tzl"

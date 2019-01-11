@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+'''
+Hello World
+'''
+__author__ = 'tzl'
 
 print('Hello python')
 print('你好，世界')
