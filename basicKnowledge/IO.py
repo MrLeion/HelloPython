@@ -5,6 +5,11 @@ IO 编程
 '''
 __author__ = 'tzl'
 
+
+
+
+
+
 ##########
 # 普通文件的同步读取复杂写法
 ##########
@@ -12,6 +17,10 @@ __author__ = 'tzl'
 
 import os
 
+# posix:linux/mac nt:windows
+print('文件系统名称：'+os.name)
+# 
+print('文件系统详情：'+os.uname().__str__())
 
 def readFile():
     try:
@@ -74,6 +83,7 @@ readFile()
 
 ##########
 # file-like IO:StringIO&BytesIO
+
 ##########
 # StringIO
 from io import StringIO
@@ -91,6 +101,18 @@ from io import BytesIO
 bytes_io = BytesIO()
 bytes_io.write('中文'.encode('utf-8'))
 print(bytes_io.read())
+
+
+
+##########
+# 创建目录
+##########
+abspath = os.path.abspath('.')
+print(abspath)
+os.path.join(abspath,'joinDir')
+
+
+
 
 
 
