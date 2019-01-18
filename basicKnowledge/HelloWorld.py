@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 '''
 Hello World
+1.字母数字下划线组成，下划线连接
+2.去除保留字和关键字
 '''
 __author__ = 'tzl'
 
@@ -14,14 +16,14 @@ name = input('Please enter your name:')
 print('hello',name)
 print(name)
 
-
+# 浮点数是近似值
+print('0.1 + 0.2:',0.1 + 0.2)
 
 
 # Ex1
 width = input('Please input width:')
 height = input('Please input height:')
 print(int(width)*int(height))
-
 
 
 

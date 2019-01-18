@@ -8,10 +8,15 @@ __author__ = 'tzl'
 # python 基本数据类型提供了整数，浮点数，字符串
 # 注：1.整数精确，浮点数会有误差
 # 注：2.r''或者r""表示后面字符串中的转义字符全部失效
-# 注：3. '' 和"" 交叉使用，\ 为转义字符
 # 注：4. %为 % 的转义字符，字符串'%%' 为 %
 # 注：int() str() unicode() 坐字符转换
 # None 和 '' 类似于 null 和空字符串
+
+# 引号中的引号解决
+# 用单引号包裹
+# 转移字符
+
+
 
 
 # python 提供了两种 内置集合类型 list 和 tuple
@@ -39,7 +44,6 @@ print(r'''hello,\n world''')
 print('%2d-%02d' % (3, 1))
 print('%.2f' % 3.1415926)
 
-
 # ex2:计算成绩提升百分点
 r = (85 - 72) / 72
 print('%.1f %%' % r)
@@ -48,12 +52,8 @@ print('%.1f %%' % r)
 # str:字符串为不可变
 ##########
 a = 'abc'
-b = a.replace("a","A")
-print(a,b)
-
-
-
-
+b = a.replace("a", "A")
+print(a, b)
 
 # ex3:list和tuple索引
 
@@ -80,3 +80,31 @@ def quadratic(a, b, c):
         return ((-b + math.sqrt(b * b - 4 * a * c)) / (2 * a)), ((-b - math.sqrt(b * b - 4 * a * c)) / (2 * a))
     else:
         return -1, -1
+
+
+print('hahah' + str(1 + 2))
+
+headlines = ["Local Bear Eaten by Man",
+             "Legislature Announces New Laws",
+             "Peasant Discovers Violence Inherent in System",
+             "Cat Rescues Fireman Stuck in Tree",
+             "Brave Knight Runs Away",
+             "Papperbok Review: Totally Triffic"]
+
+
+# TODO: set news_ticker to a string that contains no more than 140 characters long.
+# HINT: modify the headlines list to verify your loop works with different inputs
+def getStr(headlines):
+    count = 0
+    result = ''
+    for i in range(len(headlines)):
+        if count + len(headlines[i]) > 140:
+            # 截取字符串到 140
+            result = result + headlines[i][:140 - count]
+            return result
+        result = result + headlines[i] + ' '
+        count += len(headlines[i]) + 1
+    return result
+
+
+news_ticker = getStr(headlines)

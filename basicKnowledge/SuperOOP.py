@@ -68,6 +68,14 @@ class Weekday(Enum):
     Sat = 6
 
 
+L= [5, 8, 15, 7, 10, 22, 3, 1, 15, 10]
+L.sort()
+
+i = sum(L)
+print(i/12)
+
+print(L)
+
 
 
 
