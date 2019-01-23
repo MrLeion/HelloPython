@@ -49,3 +49,9 @@
 - [笨方法学 Python](https://github.com/521xueweihan/python)
 
 - [Python 3.7.1 文档](https://docs.python.org/3/library/)
+
+
+- [Adb shell](http://adbshell.com/)
+- [adb 命令参考](https://juejin.im/post/5bfbc44ce51d4540df5eee49)
+
+
