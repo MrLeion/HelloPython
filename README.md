@@ -25,7 +25,7 @@
 
 [python爬虫学习导航-肖鹏伟](https://blog.csdn.net/qq_40147863/article/details/85303579)
 
-[douyin 自动点赞功能](https://github.com/wangshub/Douyin-Bot)
+[douyin 自动给美女点赞功能](https://github.com/wangshub/Douyin-Bot)
 
 [微信公众号爬虫](https://github.com/wonderfulsuccess/weixin_crawler)
 
