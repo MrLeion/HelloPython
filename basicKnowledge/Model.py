@@ -27,7 +27,6 @@ _author_ = "tzl"
 # Python 中包一般内部会有 _init_.py
 
 
-
 # 使用模块
 import math
 
@@ -36,7 +35,6 @@ import math
 #从外部导入当前模块则条件不成立，main 入口函数不会运行，和 Java 是同理的
 if __name__ == '__main__':
    print(math.sqrt(2))
-
 
 
 #这里注意到__name__ 这种特殊的命名方式是 Python 中所特有的：

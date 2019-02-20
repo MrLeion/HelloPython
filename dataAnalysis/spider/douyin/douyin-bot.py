@@ -1,4 +1,11 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+'''
+抖音机器人主入口
+https://github.com/wangshub/Douyin-Bot
+'''
+__author__ = 'tzl'
+
 import sys
 import random
 import time

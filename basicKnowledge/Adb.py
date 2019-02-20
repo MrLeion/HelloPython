@@ -9,9 +9,9 @@ __author__ = 'tzl'
 # python 运用两种方式调用adb：
 # os.system()
 # os.popen()
-#
-#subprocess 执行内部命令
 # 两者的区别是前者无返回值，后者有返回值
+#
+# subprocess 执行内部命令
 ##########
 import os
 import sys
@@ -38,7 +38,6 @@ process = os.popen('adb shell wm size')
 output = process.read()
 print(output)
 
-
 # 540 965 10 300 200
 
 print(sys.path[0])
@@ -48,7 +47,4 @@ print(sys.path[0])
 # exit(0):means a clean exit without any errors / problems
 # exit(-1) = exit(255)
 ##########
-
-
-
-print( sys.version_info.major )
+print(sys.version_info.major)

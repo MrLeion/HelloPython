@@ -18,6 +18,7 @@ __author__ = 'tzl'
 
 # demo: 类 构造器 封装
 class Student():
+
     def __init__(self, name, age):
         self.__name = name
         self.__age = age
@@ -47,9 +48,6 @@ class Student(object):
 ##########
 class Master(Student):
     pass
-
-
-
 
 
 if __name__ == '__main__':
