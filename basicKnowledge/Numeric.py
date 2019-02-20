@@ -81,7 +81,6 @@ def quadratic(a, b, c):
     else:
         return -1, -1
 
-
 print('hahah' + str(1 + 2))
 
 headlines = ["Local Bear Eaten by Man",

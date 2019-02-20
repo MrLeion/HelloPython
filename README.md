@@ -14,9 +14,6 @@
 
 
 
-
-
-
 > 数据分析
 
 -  爬虫 : spider
@@ -39,11 +36,6 @@
 
 
 
-
-
-
-
-
 > Python 参考文档
 
 - [廖雪峰教程](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
@@ -53,7 +45,10 @@
 - [Python 3.7.1 文档](https://docs.python.org/3/library/)
 
 
+> 额外技能
+
 - [Adb shell](http://adbshell.com/)
+
 - [adb 命令参考](https://juejin.im/post/5bfbc44ce51d4540df5eee49)
 
 
