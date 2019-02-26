@@ -143,3 +143,6 @@ conda create -f 文件名称.yaml
 这里给个 demo:
 [HelloJupyter.ipynb](https://gist.github.com/MrLeion/73fbb5f2a72481676e3dca9ce2f27c69)
 
+
+Google AI 在原先 Jupyter notebook 的基础上增加了部分新功能,形成现在的共享实验室
+[Google Colabortary](https://colab.research.google.com/drive/1JY5ADbryaBdQqGX5EflURWnPnCK3HPqh)

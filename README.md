@@ -4,6 +4,7 @@
 
  -  basicKnowledge ： 主要是廖雪峰 Python3.7.2 基础学习的学习笔记
 
+    [本人学习笔记](basicKnowledge/Python 3.7.2学习笔记总结.md)
 
 
 
@@ -27,7 +28,6 @@
 [微信公众号爬虫](https://github.com/wonderfulsuccess/weixin_crawler)
 
 - numpy 和 pandas:np_pd
-
 
 
 
